@@ -3,6 +3,6 @@
 multie_class_selfie_segmentation 모델
 
 ### 결과
-![img](https://github.com/DAASHeo/mediapipe/assets/64454313/480fb591-bb04-47fa-8ad8-b9ac9c14fc78)
-![img_1](https://github.com/DAASHeo/mediapipe/assets/64454313/751f703d-e136-4c8d-abda-bc9bad826059)
-![img_2](https://github.com/DAASHeo/mediapipe/assets/64454313/17f4142f-b418-485e-a39e-4c64ba916b34)
+![img](https://github.com/DAASHeo/mediapipe/assets/64454313/51597baa-2584-41dc-82d4-d412562a085f)
+![img_1](https://github.com/DAASHeo/mediapipe/assets/64454313/88e0546d-c409-4024-9dde-e7e8e1711e6d)
+![img_2](https://github.com/DAASHeo/mediapipe/assets/64454313/9b01d14c-5dd5-4c4d-ac90-b9a8fcd2486c)
