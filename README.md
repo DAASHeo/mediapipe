@@ -1,4 +1,4 @@
-![img](https://github.com/DAASHeo/mediapipe/assets/64454313/a75922ed-bcfe-486e-b50c-b33e9bed193e)## Mediapipe
+# mediapipe
 
 multie_class_selfie_segmentation 모델
 
