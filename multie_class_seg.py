@@ -35,8 +35,8 @@ with ImageSegmenter.create_from_options(options) as segmenter:
 
     # 이미지 불러오기
     # mp_image = mp.Image.create_from_file('./image/sampl3.jpg')
-    # mp_image = mp.Image.create_from_file('./image/sample2.png')
-    mp_image = mp.Image.create_from_file('./image/sample.jpg')
+    mp_image = mp.Image.create_from_file('./image/sample2.png')
+    # mp_image = mp.Image.create_from_file('./image/sample.jpg')
 
     # 원본 이미지 가져오기 (알파 채널 제거)
     original_image = mp_image.numpy_view()
@@ -67,7 +67,6 @@ with ImageSegmenter.create_from_options(options) as segmenter:
     blended_image = cv2.addWeighted(original_image, 1 - alpha, color_image, alpha, 0)
 
     #결과
-    cv2.imshow('Original', cv2.imread('./image/sample.jpg'))
     cv2.imshow('Color', color_image)
     cv2.imshow('Original_color', blended_image)
     cv2.waitKey(0)
