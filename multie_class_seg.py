@@ -59,7 +59,7 @@ with ImageSegmenter.create_from_options(options) as segmenter:
     # 각 카테고리 존재 여부 확인
     for i in range(len(category)):
         is_present = np.isin(category_mask_np, i).any()
-        print(f"{category[i]} 존재 : {is_present}")
+        print(f"{category[i]} 존재 여부 : {is_present}")
 
 
     # 이미지 투명도 설정
